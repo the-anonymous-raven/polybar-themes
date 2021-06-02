@@ -10,3 +10,6 @@ Tools used
 - Polybar: https://github.com/polybar/polybar
 - Picom: https://github.com/yshui/picom
 - Pomobar: https://github.com/jbirnick/polybar-timer
+
+Preview: 
+![Nordish Mac Edition](nordish_mac/preview/nord_mac_preview.png?raw=true "Title")
