@@ -9,7 +9,9 @@ Tools used
 
 - Polybar: https://github.com/polybar/polybar
 - Picom: https://github.com/yshui/picom
-- Pomobar: https://github.com/jbirnick/polybar-timer
+- Polybar-timer: https://github.com/jbirnick/polybar-timer
+- Cava: https://github.com/karlstav/cava
+- Figlet: https://github.com/xero/figlet-fonts [3D.flf one]
 
 Preview: 
 ![Nordish Mac Edition](nordish_mac/preview/nord_mac_preview.png?raw=true "Title")
