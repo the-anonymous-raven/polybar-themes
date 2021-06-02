@@ -2,8 +2,8 @@
 
 Cool polybar themes
 
-I generally make one polybar theme per month. Star this repo for upcoming releases as well as old content.
-If anyone wants to recommend changes, feel free to drop a PR.
+- I generally make one polybar theme per month. Star this repo for upcoming releases as well as popular old content.
+- If anyone wants to recommend changes, feel free to drop a PR.
 
 Tools used
 
