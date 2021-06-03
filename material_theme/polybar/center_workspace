@@ -1,0 +1,42 @@
+[bar/center]
+
+width = 20%
+height = 38
+offset-x = 40%
+offset-y = 0.2%
+background = #00ffffff
+foreground = #000000
+padding-left = 2
+padding-right = 2
+padding-top = 3
+radius = 17
+font-0 = Quicksand:style=Medium:size=17;3
+font-1 = Material Design Icons:style=Regular:size=18;1
+modules-center = bspwm
+
+[module/bspwm]
+type=internal/bspwm
+label-focused = %icon%
+#label-focused-foreground = #81A9A2
+label-focused-foreground = #FCEACD
+label-focused-padding = 1
+
+ws-icon-0 = 1;󰼏
+ws-icon-1 = 2;󰼐
+ws-icon-2 = 3;󰼑
+ws-icon-3 = 4;󰼒
+ws-icon-4 = 5;󰼓
+ws-icon-5 = 6;󰼔
+ws-icon-6 = 7;󰐯
+
+label-occupied = %icon%
+label-occupied-padding = 1
+label-occupied-foreground =#FFFFFF
+#ababab
+label-urgent = %icon%!
+label-urgent-background =#c8c8d2 
+label-urgent-padding = 1
+
+label-empty = %icon%
+label-empty-foreground =#81A9A2
+label-empty-padding = 1

@@ -1,0 +1,101 @@
+[bar/right]
+
+width = 28%
+height = 30
+offset-x = 67%
+offset-y = 0.2%
+background = #60BB7D
+foreground = #000000
+padding-left = 2
+padding-right = 2
+font-0 = Quicksand:style=Medium:size=16;3
+font-1 = Material Design Icons:style=Regular:size=16;3
+font-2 = Iosevka Nerd Font:style=Medium:size=17;4
+
+module-margin-left=0
+module-margin-right=0
+border-top-size =4
+border-bottom-size =4
+border-left-size = 4
+border-color=#60BB7D
+modules-center = xkeyboard space wlan space left_corner alsa right_corner space left_corner backlight right_corner space left_corner battery right_corner space left_corner date right_corner space power space
+
+[module/space]
+type = custom/text
+content = " "
+
+[module/wlan]
+type = internal/network
+interface = wlan0
+interval = 1
+label-connected = %{A1:cmst &:}󰤥  %{A}
+label-disconnected =%{A1:cmst &:}󰤮%{A}
+#think about adding the wifi name
+
+[module/backlight]
+type = internal/backlight
+label =󰖨 %percentage%%
+label-background=#D1EBE0
+card = intel_backlight
+
+[module/battery]
+type = internal/battery
+battery = BAT0
+adapter = ADP1
+full-at = 99
+poll-interval = 5
+format-discharging = <ramp-capacity><label-discharging>
+format-full = <label-full> <ramp-capacity>
+format-charging = <animation-charging><label-charging> 
+ramp-capacity-0 = %{F#FD3B12}󰁺
+ramp-capacity-1 =󰁼
+ramp-capacity-2 =󰁿
+ramp-capacity-3 =󰂁
+ramp-capacity-4 =󰁹
+animation-charging-0 = 󰂆
+animation-charging-1 = 󰂇
+animation-charging-2 = 󰂉
+animation-charging-3 = 󰂊
+animation-charging-4 = 󰂅
+format-discharging-background =#D1EBE0
+
+format-charging-background =#D1EBE0
+
+[module/date]
+type = internal/date
+interval = 30
+date = "%Y-%b-%d"
+date-alt = 
+time = 
+time-alt = "%a:%H:%M"
+label = %date%%time%
+format-padding = 1
+format-background=#D1EBE0
+
+[module/alsa]
+type = internal/alsa
+headphone-mixer = Headphone
+headphone-id = 14
+format-volume = <ramp-volume><label-volume>
+label-muted = 󰂛 Muted
+ramp-volume-0 = 󰕾
+ramp-volume-1 = 󰕾
+ramp-volume-2 = 󰕾
+label-muted-foreground =#ac123a
+label-muted-background=#D1EBE0
+ramp-headphones-0 = 󰋋
+format-volume-background =#D1EBE0
+
+[module/left_corner]
+type = custom/text
+content = ""
+content-foreground =#D1EBE0
+
+[module/right_corner]
+type = custom/text
+content = ""
+content-foreground =#D1EBE0
+
+[module/power]
+type=custom/text
+content= "󰤆"

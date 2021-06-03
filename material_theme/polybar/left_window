@@ -1,0 +1,20 @@
+[bar/left]
+
+width = 20%
+height = 38
+offset-x = 5%
+offset-y = 0.2%
+background = #F1B080
+foreground = #000000
+padding-left = 2
+padding-right = 2
+padding-top = 3
+radius = 17
+font-0 = Quicksand:style=Medium:size=17;3
+
+modules-center = xwindow
+
+[module/xwindow]
+type=internal/xwindow
+label=%title:0:30:...%
+label-empty="Open a terminal xD"
