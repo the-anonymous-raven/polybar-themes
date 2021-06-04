@@ -15,4 +15,4 @@ Tools used for nord one:
 
 Preview:
 ![Nordish Mac Edition](nordish_mac/preview/nord_mac_preview.png?raw=true "Nordish Mac")
-![Material Inspired](material_theme/preview/material_type.png?raw=true "Inspired by Google")
+![Material Inspired](material_theme/preview/material_preview.png?raw=true "Inspired by Google")
