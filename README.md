@@ -14,5 +14,6 @@ Tools used for nord one:
 - Figlet: https://github.com/xero/figlet-fonts [3D.flf one]
 
 Preview:
+![Nordish Material Polybar](pure_nordish_material/preview/pure_nord_preview.png?raw=true "Pure nord polybar")
 ![Nordish Mac Edition](nordish_mac/preview/nord_mac_preview.png?raw=true "Nordish Mac")
 ![Material Inspired](material_theme/preview/material_preview.png?raw=true "Inspired by Google")
