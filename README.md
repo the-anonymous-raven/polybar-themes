@@ -14,7 +14,7 @@ Tools used for nord one:
 - Figlet: https://github.com/xero/figlet-fonts [3D.flf one]
 
 Preview:
-Latest polybar(updated 5 June 2020)
+Latest polybar(updated 5 June 2021)
 ![Nordish Material Polybar](pure_nordish_material/preview/pure_nord_preview.png?raw=true "Pure nord polybar")
 Old works:
 ![Nordish Mac Edition](nordish_mac/preview/nord_mac_preview.png?raw=true "Nordish Mac")
