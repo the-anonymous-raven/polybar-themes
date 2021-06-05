@@ -16,6 +16,8 @@ Tools used for nord one:
 Preview:
 Latest polybar(updated 5 June 2021)
 ![Nordish Material Polybar](pure_nordish_material/preview/pure_nord_preview.png?raw=true "Pure nord polybar")
+![Nordish Material Polybar](pure_nordish_material/preview/preview2.png?raw=true "Pure nord polybar")
+
 Old works:
 ![Nordish Mac Edition](nordish_mac/preview/nord_mac_preview.png?raw=true "Nordish Mac")
 ![Material Inspired](material_theme/preview/material_preview.png?raw=true "Inspired by Google")
