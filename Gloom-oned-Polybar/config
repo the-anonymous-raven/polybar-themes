@@ -1,4 +1,3 @@
-
 [colors]
 background = ${xrdb:background}
 foreground = ${xrdb:foreground}
@@ -18,12 +17,12 @@ color12 = ${xrdb:color12}
 color13 = ${xrdb:color13}
 color14 = ${xrdb:color14}
 color15 = ${xrdb:color15}
-dark-light = #272A2B 
+dark-light = #272A2B
 active-light = #313435
 
-[bar/example] 
-tray-position = right 
-monitor = LVDS1 
+[bar/example]
+tray-position = right
+monitor = LVDS1
 width =  100%
 height = 25
 padding-left = 1
@@ -39,12 +38,12 @@ border-bottom-color = ${colors.background}
 line-size = 1
 wm-restack = bspwm
 
-modules-left = round-left bspwm round-right mpd  
-modules-center =  
-modules-right =  round-left polywins round-right alsa cpu round-left updates round-right temperature spaces round-left mem round-right xbacklight round-left wlan time round-right sysmenu  
+modules-left = round-left bspwm round-right mpd
+modules-center =
+modules-right =  round-left polywins round-right alsa cpu round-left updates round-right temperature spaces round-left mem round-right xbacklight round-left wlan time round-right sysmenu
 
 font-0 = JetBrainsMono Nerd Font:style=Bold:pixelsize=11;3
-font-1 = JetBrainsMono Nerd Font:size=17;4
+font-1 = JetBrainsMono Nerd Font:size=15;3
 font-2 = Material Design Icons:style=Bold:size=13;3
 font-3 = unifont:fontformat=truetype:size=13:antialias=true;
 
@@ -54,15 +53,15 @@ type = internal/mpd
 interval = 2
 format-online = <icon-prev><toggle><icon-next>
 icon-play-foreground = ${colors.color1}
-icon-play = 󰐊 
+icon-play = 󰐊
 icon-pause-foreground = ${colors.color1}
-icon-pause = 󰏥 
+icon-pause = 󰏥
 icon-stop-foreground = ${colors.color1}
-icon-stop = 󰓛 
+icon-stop = 󰓛
 icon-prev-foreground = ${colors.color4}
-icon-prev = 󰒮 
+icon-prev = 󰒮
 icon-next-foreground = ${colors.color4}
-icon-next = 󰒭 
+icon-next = 󰒭
 icon-play-underline = ${colors.color3}
 icon-next-underline = ${colors.color3}
 icon-pause-underline = ${colors.color3}
@@ -70,8 +69,8 @@ icon-prev-underline = ${colors.color3}
 
 [module/alsa]
 type = internal/alsa
-format-volume = <label-volume> <bar-volume> 
-label-volume =  
+format-volume = <label-volume> <bar-volume>
+label-volume = 
 label-volume-foreground = ${colors.colors8}
 
 format-muted-foreground = ${colors.foreground}
@@ -88,15 +87,15 @@ bar-volume-foreground-3 = #61afef
 bar-volume-foreground-4 = #61afef
 bar-volume-foreground-5 = #61afef
 bar-volume-foreground-6 = #61afef
-bar-volume-gradient = false
-bar-volume-indicator = 
-bar-volume-indicator-foreground = #61afef
-bar-volume-indicator-font = 1.5
-bar-volume-fill =  
+bar-volume-gradient = true
+bar-volume-indicator = 󰮯
+bar-volume-indicator-foreground = #e06c75
+bar-volume-indicator-font = 1
+bar-volume-fill =  
 bar-volume-fill-foreground = #61afef
-bar-volume-fill-font = 1.5
-bar-volume-empty =  
-bar-volume-empty-font = 1.5
+bar-volume-fill-font = 1
+bar-volume-empty = 
+bar-volume-empty-font = 1
 bar-volume-empty-foreground = ${colors.foreground}
 format-volume-padding = 1
 
@@ -104,9 +103,9 @@ format-volume-padding = 1
 type = internal/temperature
 thermal-zone = 0
 warn-temperature = 65
-label-foreground =  ${colors.color7} 
+label-foreground =  ${colors.color7}
 format = <ramp> <label>
-;format-underline = #b48ead 
+;format-underline = #b48ead
 format-warn = <ramp>  <label-warn>
 format-warn-underline = #b48ead
 ;format-background = ${colors.color8}
@@ -114,16 +113,16 @@ format-warn-underline = #b48ead
 label = %temperature-c%
 label-warn = %temperature-c%
 label-warn-backgroud = #b48ead
-format-padding = 0 
-ramp-0 = 󰸁  
-ramp-foreground = ${colors.color11} 
+format-padding = 0
+ramp-0 = 󰸁
+ramp-foreground = ${colors.color11}
 
 [module/window]
-type = custom/script 
+type = custom/script
 exec = ~/.config/polybar/scripts/window.sh 2>/dev/null
-interval = 1  
-format = <label> 
-label = %output% 
+interval = 1
+format = <label>
+label = %output%
 label-padding = 1
 
 [module/polywins]
@@ -133,12 +132,11 @@ format = <label>
 label = %output%
 ;label-padding = 1
 tail = true
-label-background = ${colors.color8} 
+label-background = ${colors.color8}
 
 [module/spaces]
 type = custom/text
 content = %{T3} %{T-}
-
 [module/bspwm]
 type = internal/bspwm
 
@@ -150,22 +148,22 @@ reverse-scroll = false
 
 format = <label-state>
 
-ws-icon-0 =I;%{F#61afef}󰈹  
-ws-icon-1 =II;%{F#98c379}󱓷  
+ws-icon-0 =I;%{F#61afef}󰈹
+ws-icon-1 =II;%{F#98c379}󱓷
 ws-icon-2 =III;%{F#e5c07b}󰉋
 ws-icon-3 =IV;%{F#e06c75}󰔁
 ws-icon-4 =V;%{F#9a7ecc}
 
-label-focused = %icon% 
+label-focused = %icon%
 label-focused-foreground = ${colors.foreground}
 label-focused-underline = #61afef
 label-focused-padding = 1
-label-focused-background = ${colors.color8}    
+label-focused-background = ${colors.color8}
 
-label-occupied = %icon%  
+label-occupied = %icon%
 label-occupied-foreground = #ffffff
 label-occupied-padding = 1
-label-occupied-background = ${colors.color8} 
+label-occupied-background = ${colors.color8}
 
 label-empty = %icon%
 label-empty-foreground =#ffffff
@@ -175,26 +173,29 @@ label-empty-background = ${colors.color8}
 label-urgent = %icon%
 label-urgent-foreground = #88C0D0
 label-urgent-padding = 1
-label-urgent-background = ${colors.color8} 
+label-urgent-background = ${colors.color8}
 
+;label-separator = "ﭳ
+;label-separator-background = #1e222a
+;label-separator-foreground = #2b2f37
 [module/round-left]
 type = custom/text
-content = %{T2}ﭳ%{T-}
-content-foreground = #2b2f37 
+content = %{T2}%{T-}
+content-foreground = #2b2f37
 
 [module/round-right]
 type = custom/text
-content = %{T2}ﭳ%{T-}
-content-foreground = #2b2f37 
+content = %{T2}%{T-}
+content-foreground = #2b2f37
 [module/pulseaudio]
 type = internal/pulseaudio
 
 ;format-volume = <ramp-volume> <bar-volume>
 format-volume = <label-volume> <bar-volume>
 ;label-volume = VOL %percentage%%
-label-volume = 󰎆 
+label-volume = 󰎆
 label-volume-foreground =${colors.color12}
-;extra added 
+;extra added
 ;format-volume-background = ${colors.yellow}
 format-volume-background = ${colors.background}
 format-volume-padding = 1
@@ -208,7 +209,7 @@ label-muted = 󰎆 muted
 label-muted-foreground = #666
 
 bar-volume-width = 10
-bar-volume-foreground-0 = 
+bar-volume-foreground-0 =
 bar-volume-foreground-1 = #61afef
 bar-volume-foreground-2 = #61afef
 bar-volume-foreground-3 = #61afef
@@ -216,9 +217,9 @@ bar-volume-foreground-4 = #61afef
 bar-volume-foreground-5 = #61afef
 bar-volume-foreground-6 = #61afef
 bar-volume-gradient = false
-bar-volume-indicator = 
+bar-volume-indicator =
 bar-volume-indicator-font = 4
-bar-volume-fill = ─  
+bar-volume-fill = ─
 bar-volume-fill-font = 4
 bar-volume-empty = ─
 bar-volume-empty-font = 4
@@ -230,7 +231,7 @@ type = internal/date
 interval = 60
 
 format = <label>
-format-background = ${colors.color8} 
+format-background = ${colors.color8}
 
 date = %{F#56b6c2}󰥔 %{F-}%{F#abb2bf}%H:%M%{F-}
 time-alt = %{F#56b6c2}󰃭 %{F-}%{F#abb2bf}%a, %b %d%{F-}
@@ -238,49 +239,49 @@ time-alt = %{F#56b6c2}󰃭 %{F-}%{F#abb2bf}%a, %b %d%{F-}
 label = %date%%time%
 
 [module/updates]
-type = custom/script 
-exec = ~/.config/polybar/scripts/xbps-updates 
-format = <label> 
-label = 󰬬 %output% 
-label-padding =1 
+type = custom/script
+exec = ~/.config/polybar/scripts/xbps-updates
+format = <label>
+label = 󰬬 %output%
+label-padding =1
 label-background = ${colors.color8}
 label-foreground = ${colors.color1}
 [module/mem]
 type = custom/script
 exec = free -m | sed -n 's/^Mem:\s\+[0-9]\+\s\+\([0-9]\+\)\s.\+/\1/p'
 format = <label>
-format-prefix = 󰍛 
-format-background = ${colors.color8} 
+format-prefix = 󰍛
+format-background = ${colors.color8}
 format-padding = 0
-label = %output%M used 
+label = %output%M used
 label-padding = 1
 format-prefix-foreground = ${colors.color4}
-format-margin = 0 
+format-margin = 0
 
 [module/menu]
 type = custom/text
-content = 󱓞   
+content = 󱓞
 ;content-background = #81A1C1
 content-foreground = #61afef
-click-left = rofi -show drun 
+click-left = rofi -show drun
 ;content-underline = #4C566A
-content-padding= 1 
+content-padding= 1
 
 [module/powermenu]
 type = custom/text
 content = 󰐥
-click-left = ~/.config/polybar/scripts/dmenu.sh 
+click-left = ~/.config/polybar/scripts/dmenu.sh
 ;content-background = #81A1C1
 content-foreground = ${colors.foreground}
 content-padding  = 1
 content-margin = 0
 
 [module/sysmenu]
-type = custom/text 
-content =  
+type = custom/text
+content = 
 content-foreground = ${colors.color13}
-content-padding = 1 
-click-left = ~/.config/polybar/scripts/powermenu.sh 
+content-padding = 1
+click-left = ~/.config/polybar/scripts/powermenu.sh
 
 [module/xbacklight]
 type = internal/xbacklight
@@ -296,10 +297,10 @@ type = internal/network
 interface = wlp2s0
 interval = 3.0
 format-connected =  <label-connected>
-label-connected = "󰤨 " 
+label-connected = "󰤧 "
 label-connected-foreground = ${colors.color4}
-label-disconnected = "󰤭 " 
-label-disconnedted-foreground = ${colors.color4} 
+label-disconnected = "󰤭 "
+label-disconnedted-foreground = ${colors.color4}
 label-connected-background = ${colors.color8}
 label-disconnected-bacoground = ${colors.color8}
 
@@ -350,25 +351,23 @@ format-discharging-padding = 1
 type = internal/cpu
 interval = 2.5
 
-format = <label> 
+format = <label>
 format-padding = 1
 format-margin = 0
 
 label = %{F#98c379}󰻟 %{F-}%percentage%%
-;format-backgoound = ${colors.color12} 
+;format-backgoound = ${colors.color12}
 format-foreground =${colors.color7}
 
 [module/xwindow]
 type = internal/xwindow
 
-label = %title% 
+label = %title%
 label-maxlen = 20
-label-foreground = ${colors.foreground} 
-label-padding = 1 
+label-foreground = ${colors.foreground}
+label-padding = 1
 
 ; Used instead of label when there is no window title
 label-empty = ""
 ;label-empty-foreground = ${color.blue-light}
 label-empty-padding = 2
-
-
