@@ -21,3 +21,12 @@ Latest polybar(updated 5 June 2021)
 Old works:
 ![Nordish Mac Edition](nordish_mac/preview/nord_mac_preview.png?raw=true "Nordish Mac")
 ![Material Inspired](material_theme/preview/material_preview.png?raw=true "Inspired by Google")
+
+# Gloom Onedark Theme
+- Gloom Onedark is a theme which is inspired by [Onedark Colorscheme](https://github.com/joshdick/onedark.vim) with a little bit of changes. 
+
+![bar](https://user-images.githubusercontent.com/82205152/124379185-1c8aca00-dcd3-11eb-8810-612c3beace8d.png)
+![rice](https://user-images.githubusercontent.com/82205152/124379175-1399f880-dcd3-11eb-815e-485cd4ac0358.png)
+
+# Fonts Used 
+- In this Polybar configuration i have been using JetBrains Nerd Font and Material Design Icons as the iconic fonts. 
