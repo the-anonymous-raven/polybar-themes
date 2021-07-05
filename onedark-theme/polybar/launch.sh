@@ -7,5 +7,5 @@ pkill -9 polybar
 while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 
 # Launch polybar
-polybar bar -c .config/polybar/config &
+polybar bar -c ~/.config/polybar/polybar-themes/onedark-theme/polybar/config &
 
