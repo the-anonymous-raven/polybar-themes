@@ -34,7 +34,7 @@ Old works:
 # Onedark Theme
 - This one is using Onedark colorscheme but its darker and brighter. 
 
-![bar](https://user-images.githubusercontent.com/82205152/124379185-1c8aca00-dcd3-11eb-8810-612c3beace8d.png)
+![bar](https://raw.githubusercontent.com/primalkaze/polybar-themes/main/onedark-theme/preview/bar.png)
 ![rice](https://raw.githubusercontent.com/primalkaze/polybar-themes/main/onedark-theme/preview/onedark-theme.png)
 
 ## Fonts Used 
