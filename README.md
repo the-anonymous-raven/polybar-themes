@@ -4,7 +4,7 @@
 How to Install
 --------------
 ```
-curl https://github.com/the-anonymous-raven/polybar-themes/install.sh | sudo bash
+curl https://raw.githubusercontent.com/the-anonymous-raven/polybar-themes/main/install.sh | sudo bash
 ```
 
 Run polytheme.sh and pass arguments accordingly to apply the themes.
