@@ -25,7 +25,7 @@ Old works:
 # Gloom Onedark Theme
 - Gloom Onedark is a theme which is inspired by [Onedark Colorscheme](https://github.com/joshdick/onedark.vim) with a little bit of changes. 
 
-![bar](https://raw.githubusercontent.com/primalkaze/polybar-themes/main/onedark-theme/preview/bar.png)
+![bar](https://user-images.githubusercontent.com/82205152/124379185-1c8aca00-dcd3-11eb-8810-612c3beace8d.png)
 ![rice](https://user-images.githubusercontent.com/82205152/124379175-1399f880-dcd3-11eb-815e-485cd4ac0358.png)
 
 # Fonts Used 
