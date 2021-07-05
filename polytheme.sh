@@ -15,7 +15,7 @@ then
   sh ~/.config/polybar/polybar-themes/pure_nordish_material/launch.sh
 elif [[ "$@" == "-4" ]];
 then
-  sh ~/.config/polybar/polybar-themes/Gloom-oned-Polybar/launch.sh
+  sh ~/.config/polybar/polybar-themes/Gloom-Oned-Polybar/launch.sh
 else
   echo "Wrong arguments passed"
   echo "Run polytheme.sh without arguments for help"
