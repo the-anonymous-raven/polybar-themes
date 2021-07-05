@@ -15,6 +15,7 @@ Cool polybar themes
 ![Nordish Material Polybar](pure_nordish_material/preview/preview2.png?raw=true "Pure nord polybar")
 ![bar](https://user-images.githubusercontent.com/82205152/124379185-1c8aca00-dcd3-11eb-8810-612c3beace8d.png)
 ![Nord like pecan](nordish_mac/preview/preview.png?raw=true)
+![bar](https://user-images.githubusercontent.com/82205152/124379185-1c8aca00-dcd3-11eb-8810-612c3beace8d.png)
 ![Material theme](material_theme/preview/preview.png?raw=true)
 
 - I generally make one polybar theme per month. Star this repo for upcoming releases.
