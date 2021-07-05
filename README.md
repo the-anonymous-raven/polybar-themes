@@ -12,6 +12,10 @@ Run polytheme.sh and pass arguments accordingly to apply the themes.
 
 Cool polybar themes
 ---------------------
+![Nordish Material Polybar](pure_nordish_material/preview/preview2.png?raw=true "Pure nord polybar")
+![bar](https://user-images.githubusercontent.com/82205152/124379185-1c8aca00-dcd3-11eb-8810-612c3beace8d.png)
+
+
 - I generally make one polybar theme per month. Star this repo for upcoming releases as well as popular old content.
 - If anyone wants to recommend changes, feel free to drop a PR.
 
