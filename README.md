@@ -25,8 +25,20 @@ Old works:
 # Gloom Onedark Theme
 - Gloom Onedark is a theme which is inspired by [Onedark Colorscheme](https://github.com/joshdick/onedark.vim) with a little bit of changes. 
 
-![bar](https://user-images.githubusercontent.com/82205152/124379185-1c8aca00-dcd3-11eb-8810-612c3beace8d.png)
+![bar](https://raw.githubusercontent.com/primalkaze/polybar-themes/main/onedark-theme/preview/bar.png)
 ![rice](https://user-images.githubusercontent.com/82205152/124379175-1399f880-dcd3-11eb-815e-485cd4ac0358.png)
 
 # Fonts Used 
-- In this Polybar configuration i have been using JetBrains Nerd Font and Material Design Icons as the iconic fonts. 
+- In this Polybar configuration i have been using JetBrains Nerd Font and Material Design Icons as the iconic fonts.
+
+# Onedark Theme
+- This one is using Onedark colorscheme but its darker and brighter. 
+
+![bar](https://user-images.githubusercontent.com/82205152/124379185-1c8aca00-dcd3-11eb-8810-612c3beace8d.png)
+![rice](https://raw.githubusercontent.com/primalkaze/polybar-themes/main/onedark-theme/preview/onedark-theme.png)
+
+## Fonts Used 
+- CaskaydiaCove Nerd Font, JetBrainsMono Nerd Font and Material Design Icons
+## packages required
+- WM : `bspwm`
+- scripts : for polywins -> `wmctrl`, `xprop`,  for powermenu script -> `dmenu`
