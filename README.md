@@ -44,7 +44,7 @@ Old works:
 # Fonts Used 
 - In this Polybar configuration i have been using JetBrains Nerd Font and Material Design Icons as the iconic fonts. 
 
-# Onedark Theme
+# Onedark Theme [By ![primalkaze](https://github.com/primalkaze)]
 - This one is using Onedark colorscheme but its darker and brighter.
 
 ![bar](https://raw.githubusercontent.com/primalkaze/polybar-themes/main/onedark-theme/preview/bar.png)
