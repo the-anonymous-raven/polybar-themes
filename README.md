@@ -1,7 +1,17 @@
 # polybar-themes
 
-Cool polybar themes
 
+How to Install
+--------------
+```
+curl https://github.com/the-anonymous-raven/polybar-themes/install.sh | sudo bash
+```
+
+Run polytheme.sh and pass arguments accordingly to apply the themes.
+
+
+Cool polybar themes
+---------------------
 - I generally make one polybar theme per month. Star this repo for upcoming releases as well as popular old content.
 - If anyone wants to recommend changes, feel free to drop a PR.
 
