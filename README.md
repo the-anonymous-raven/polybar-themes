@@ -42,3 +42,15 @@ Old works:
 
 # Fonts Used 
 - In this Polybar configuration i have been using JetBrains Nerd Font and Material Design Icons as the iconic fonts. 
+
+# Onedark Theme
+- This one is using Onedark colorscheme but its darker and brighter.
+
+![bar](https://raw.githubusercontent.com/primalkaze/polybar-themes/main/onedark-theme/preview/bar.png)
+![rice](https://raw.githubusercontent.com/primalkaze/polybar-themes/main/onedark-theme/preview/onedark-theme.png)
+
+## Fonts Used
+- CaskaydiaCove Nerd Font, JetBrainsMono Nerd Font and Material Design Icons
+## packages required
+- WM : `bspwm`
+- scripts : for polywins -> `wmctrl`, `xprop`,  for powermenu script -> `dmenu`, `feh`, `picom`.
