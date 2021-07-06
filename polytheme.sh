@@ -8,7 +8,7 @@ pkill picom
 if [[ "$@" == "" || "$@" == "-h" ]];
 then
   echo "Enter the right arguments :"
-  printf  '%s\n%s\n%s\n%s\n%s' "1: material_theme" "2: nordish_mac" "3: pure_nordish_material" "4: Gloom-Oned-Theme" "5: onedark-theme"
+  printf  '%s\n%s\n%s\n%s\n%s' "-1: material_theme" "-2: nordish_mac" "-3: pure_nordish_material" "-4: Gloom-Oned-Theme" "-5: onedark-theme"
 elif [[ "$@" == "-1" ]];
 then
   kill_nec
