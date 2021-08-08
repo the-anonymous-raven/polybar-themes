@@ -17,6 +17,7 @@ Cool polybar themes
 ![Nord like pecan](nordish_mac/preview/preview.png?raw=true)
 ![bar](https://raw.githubusercontent.com/primalkaze/polybar-themes/main/onedark-theme/preview/bar.png)
 ![Material theme](material_theme/preview/preview.png?raw=true)
+![Ayu-inspired](ayu-inspired/preview/ayu-preview.png?raw=true "Ayu colorscheme inspired")
 
 - I generally make one polybar theme per month. Star this repo for upcoming releases.
 - If anyone wants to share his/her theme, feel free to drop a PR.
@@ -29,9 +30,10 @@ Tools used:
 
 Preview:
 Latest polybar(updated 5 June 2021)
-![Nordish Material Polybar](pure_nordish_material/preview/preview2.png?raw=true "Pure nord polybar")
+![Ayu-inspired](ayu-inspired/preview/ayu-preview.png?raw=true "Ayu colorscheme inspired")
 
 Old works:
+![Nordish Material Polybar](pure_nordish_material/preview/preview2.png?raw=true "Pure nord polybar")
 ![Nordish Mac Edition](nordish_mac/preview/nord_mac_preview.png?raw=true "Nordish Mac")
 ![Material Inspired](material_theme/preview/material_preview.png?raw=true "Inspired by Google")
 
